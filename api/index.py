@@ -18,7 +18,10 @@ class DemoRecommendationRequest(BaseModel):
 
 app = FastAPI(
     title="JobMatcher AI",
-    description="Vercel-hosted API preview for JobMatcher AI. The full Streamlit dashboard runs locally, on Streamlit Cloud, or on Docker-capable hosting.",
+    description=(
+        "Vercel-hosted API preview for JobMatcher AI. The full Streamlit dashboard "
+        "runs locally, on Streamlit Cloud, or on Docker-capable hosting."
+    ),
     version="1.0.0",
 )
 
@@ -51,8 +54,7 @@ def landing_page() -> str:
       padding: 28px;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--ink);
-      background:
-        linear-gradient(120deg, #f6efe7 0%, #fffaf4 56%, #f1e7ff 100%);
+      background: linear-gradient(120deg, #f6efe7 0%, #fffaf4 56%, #f1e7ff 100%);
     }
     main {
       width: min(980px, 100%);

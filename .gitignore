@@ -26,3 +26,5 @@ models_store/*
 
 # IDE files
 .idea/
+
+.vercel/

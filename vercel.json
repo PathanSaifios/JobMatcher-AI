@@ -4,6 +4,9 @@
   "functions": {
     "api/index.py": {
       "excludeFiles": "{.venv/**,.agents/**,.pytest_cache/**,.streamlit/**,.vscode/**,app/**,data/**,models_store/**,tests/**,**/__pycache__/**,**/*.pyc}"
+    },
+    "api/main.py": {
+      "excludeFiles": "{.venv/**,.agents/**,.pytest_cache/**,.streamlit/**,.vscode/**,app/**,data/**,models_store/**,tests/**,**/__pycache__/**,**/*.pyc}"
     }
   },
   "rewrites": [
