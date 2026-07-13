@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "python -m pip install fastapi",
+  "functions": {
+    "api/index.py": {
+      "excludeFiles": "{.venv/**,.agents/**,.pytest_cache/**,.streamlit/**,.vscode/**,app/**,data/**,models_store/**,tests/**,**/__pycache__/**,**/*.pyc}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.py"
+    }
+  ]
+}
