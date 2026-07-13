@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data and models (to be downloaded/generated locally)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/app_users.json
+models_store/*
+!models_store/.gitkeep
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.idea/

@@ -1,0 +1,22 @@
+<svg width="760" height="168" viewBox="0 0 760 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="168" rx="34" fill="url(#panel)"/>
+  <rect x="18" y="18" width="132" height="132" rx="30" fill="url(#mark)"/>
+  <path d="M50 93.5C61.2 72.9 72.1 62.6 82.8 62.6C91 62.6 96.6 69.5 102.9 77.2C106.1 81.1 109.4 85.3 113.6 88.9" stroke="white" stroke-width="9.5" stroke-linecap="round"/>
+  <path d="M50 110.4C59.1 101.1 67.9 96.5 76.4 96.5C84.6 96.5 89.8 100.7 94.9 105C99.8 109.1 104.8 113.3 113.2 113.3" stroke="#B8FFF3" stroke-width="9.5" stroke-linecap="round"/>
+  <circle cx="83" cy="63" r="9" fill="#FDE68A"/>
+  <circle cx="114" cy="89" r="7" fill="#FF9BB3"/>
+  <text x="178" y="76" fill="#102033" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="850" letter-spacing="0">JobMatcher</text>
+  <text x="180" y="113" fill="#4B5D73" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="650" letter-spacing="0">AI resume matching for smarter job search</text>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="760" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FEFF"/>
+      <stop offset="0.52" stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#FFF1EA"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="18" y1="18" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102033"/>
+      <stop offset="0.45" stop-color="#2358D7"/>
+      <stop offset="1" stop-color="#0EA899"/>
+    </linearGradient>
+  </defs>
+</svg>
